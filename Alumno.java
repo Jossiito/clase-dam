@@ -14,6 +14,12 @@ public class Alumno {
         nombre = nombreCompleto;
         numeroMatricula = numeroMatriculaAlumno;
         edad = edadAlumno;
+        if (nombre.length() < 3){
+            System.out.println("La longitud del nombre no es correcta");
+        }
+        if (numeroMatricula.length() < 4){
+            System.out.println("La longitud del numero de matricula no es correcta");
+        }
     }
 
     /**
